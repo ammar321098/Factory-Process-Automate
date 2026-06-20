@@ -1,0 +1,586 @@
+{
+  "top-bar": {
+    "searchPlaceholder": "Search modules, data, or anything...",
+    "quickActions": "Quick Actions",
+    "dashboardSearch": "Search in Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Sign out",
+    "viewProfile": "View and edit profile",
+    "preferences": "Preferences and configuration",
+    "endSession": "End your session",
+    "profitLoss": "Profit & Loss Analytics"
+  },
+  "ProfitLoss": {
+    "title": "Profit & Loss Analytics",
+    "subtitle": "Comprehensive financial performance analysis and trends",
+    "period": {
+      "monthly": "Monthly (Last 12 months)",
+      "yearly": "Yearly (Last 5 years)",
+      "custom": "Custom Range"
+    },
+    "kpi": {
+      "totalRevenue": "Total Revenue",
+      "totalExpenses": "Total Expenses",
+      "grossProfit": "Gross Profit",
+      "netProfit": "Net Profit"
+    },
+    "chart": {
+      "title": "Financial Trends",
+      "subtitle": "Revenue, expenses, and profit trends over time",
+      "interactive": "Interactive Chart"
+    },
+    "summary": {
+      "title": "Financial Summary",
+      "totalRevenue": "Total Revenue",
+      "costOfGoodsSold": "Cost of Goods Sold",
+      "grossProfit": "Gross Profit",
+      "operatingExpenses": "Operating Expenses",
+      "netProfit": "Net Profit"
+    },
+    "actions": {
+      "refresh": "Refresh",
+      "export": "Export"
+    }
+  },
+  "quick": {
+    "quickAd": "Quick Add",
+    "quickForm": "Quick Add Forms"
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back! Here's your business overview and insights.",
+    "kpi": {
+      "totalMaterial": "Total Material",
+      "totalMolding": "Total Molded",
+      "totalPolishing": "Total Polished",
+      "totalStock": "Total Stock"
+    },
+    "chartTitle": "Modules Analysis Data",
+    "chartSubtitle": "Weekly production output across all stages",
+    "chart": {
+      "molding": "Molding",
+      "polishing": "Polishing",
+      "packing": "Packing",
+      "yAxis": "Pieces produced"
+    },
+    "comingSoon": "Chart Placeholder",
+    "comingSoonDesc": "Interactive charts coming soon"
+  },
+  "QuickAccess": {
+    "title": "Quick Access",
+    "mostUsed": "Most Used Actions",
+    "access": "Access",
+    "moduleShortcuts": "Module Shortcuts",
+    "shortcuts": {
+      "rawMaterial": "Raw Material",
+      "molding": "Molding",
+      "polishing": "Polishing",
+      "packing": "Packing",
+      "stock": "Stock",
+      "reports": "Reports"
+    },
+    "items": {
+      "rawMaterial": {
+        "title": "Raw Material",
+        "desc": "Add and manage raw material"
+      },
+      "molding": { "title": "Molding Data", "desc": "Show molding process" },
+      "polishing": { "title": "Polishing", "desc": "Track and view process" },
+      "employees": {
+        "title": "Employee Performance",
+        "desc": "Show all employee activities"
+      },
+      "stock": { "title": "Stock Management", "desc": "Show stock activities" },
+      "sales": {
+        "title": "Sales Overview",
+        "desc": "Record and show sales info"
+      },
+      "stockReport": {
+        "title": "Stock Report",
+        "desc": "View inventory levels"
+      }
+    }
+  },
+  "Sidebar": {
+    "Modules": {
+      "dashboard": "Dashboard",
+      "rawMaterials": "Raw Materials",
+      "molding": "Molding Process",
+      "polishing": "Polishing Process",
+      "packing": "Packing Process",
+      "stock": "Stock Management",
+      "sales": "Sales & Billing",
+      "employees": "Employee Management",
+      "expenses": "Expenses",
+      "customers": "Customers",
+      "transactions": "Transactions",
+      "reports": "Reports",
+      "admin": "Admin Panel"
+    },
+    "title": "MOHSIN STEELS",
+    "subtitle": "Factory Management Tools",
+    "comingSoon": "Coming Soon",
+    "footer": "© 2024 Automate Process v2.0"
+  },
+  "RawMaterials": {
+    "title": "Raw Materials",
+    "description": "Manage raw materials with standard sizes, gages, and unit weight tracking",
+    "totalMaterials": "Total Materials",
+    "kpi": {
+      "totalMaterials": "Total Items",
+      "todayMaterials": "Today's Items",
+      "totalWeight": "Total Weight",
+      "remainingQuantity": "Remaining Quantity"
+    },
+    "export": "Export",
+    "addMaterial": "Add Material",
+    "addSize": "Add Size",
+    "addGage": "Add Gage",
+    "addUnitWeight": "Add Unit Weight",
+    "search": "Search",
+    "ٖfilter": "Filters",
+
+    "tabs": {
+      "materials": "Raw Materials",
+      "sizes": "Standard Sizes",
+      "gages": "Standard Gages",
+      "unit-weight": "Standard Unit Weight",
+      "remaining": "Remaining Material"
+    }
+  },
+  "Molding": {
+    "title": "Molding Process",
+    "description": "Manage molding production, employee tracking, material usage, and waste calculation",
+    "totalMold": "Total Molding",
+    "kpi": {
+      "todayMolding": "Today Molding",
+      "totalDamage": "Total Damage",
+      "materialUsed": "Material Used",
+      "moldingItems": "Molding Items"
+    },
+    "tabs": {
+      "production": "Molding Log",
+      "employees": "Employee Performance",
+      "materials": "Material Usage",
+      "product-type": "Products",
+      "product-rate": "Product Rates",
+      "remaining": "Molded Products"
+    },
+    "search": "Search",
+    "export": "Export",
+    "newEntry": "New Entry",
+    "addProductType": "Add Product",
+    "addProductRate": "Add Product Rate"
+  },
+  "Polishing": {
+    "title": "Polishing Process",
+    "description": "Manage polishing production, employee tracking, molded items usage, and waste calculation",
+    "totalPolish": "Total Polishing",
+    "kpi": {
+      "todayPolished": "Today Polished",
+      "activeEmployees": "Active Employees",
+      "moldedItemsUsed": "Molded Items Used",
+      "polishedItems": "Polished Items"
+    },
+
+    "tabs": {
+      "polishing": "Polishing Log",
+      "employees": "Employee Performance",
+      "polishing-rate": "Polishing Rates",
+      "remaining": "Polished Products"
+    },
+    "search": "Search",
+    "export": "Export",
+    "newEntry": "New Entry",
+    "addPolishingRate": "Add Polishing Rate"
+  },
+  "Packing": {
+    "title": "Packing Process",
+    "description": "Manage items packing, polished items usage and total packed items",
+    "totalPacking": "Total Packed Items",
+    "kpi": {
+      "polishedItemsUsed": "Polished Items Used",
+      "todayPacked": "Today Packed",
+      "totalProducts": "Total Products",
+      "remaining": "Packed Items"
+    },
+    "tabs": {
+      "packing": "Packing Log",
+      "materials": "Polished Items Usage",
+      "totalPacked": "Packed Products"
+    },
+    "export": "Export",
+    "newEntry": "New Entry",
+    "search": "Search"
+  },
+  "Stock": {
+    "title": "Stock Management",
+    "description": "Manage finished product inventory with names, categories, weights, and sizes",
+    "totalValue": "Total Value",
+    "tabs": {
+      "stock": "Stock Products",
+      "categories": "Product Categories",
+      "totalPacked": "Total Packed Items",
+      "alerts": "Stock Alerts"
+    },
+    "kpi": {
+      "totalProducts": "Total Products",
+      "categories": "Categories",
+      "lowStock": "Low Stock Items",
+      "totalValue": "Total Value"
+    },
+    "export": "Export",
+    "addStock": "Add New Stock",
+    "addCategory": "Add Category",
+    "search": "Search"
+  },
+  "POS": {
+    "posTitle": "Point of Sale",
+    "back": "Back",
+    "cart": "Cart",
+    "item": "Items",
+    "search": "Select Products...",
+    "noItems": "No items in cart",
+    "stock": "Stock",
+    "unitPrice": "New Unit Price",
+    "selectCustomer": "Select Customer",
+    "processPayment": "Process Payment",
+    "leavePageTitle": "Leave POS Page?",
+    "leavePageMsg": "Are you sure you want to go back from POS? Unsaved data may be lost.",
+    "yesLeave": "Yes, Leave",
+    "cancel": "Cancel",
+    "parcelNumber": "Parcel Number",
+    "enterParcelNumber": "Enter Parcel Number",
+    "total": "Total",
+    "searchProducts": "Search products...",
+    "allCategories": "All Categories",
+    "paymentMethod": "Payment Method",
+    "paymentAmount": "Payment Amount",
+    "totalAmount": "Total Amount",
+    "printReceipt": "Print Receipt",
+    "receiptPreview": "Receipt Preview",
+    "exactAmount": "Exact Amount",
+    "processing": "Processing...",
+    "makePay": "Make Payment",
+    "generateBill": "Generate Bill",
+    "companyName": "BAHOO STEEL INDUSTRY",
+    "address": "Noshara Road, Gujranwala",
+    "salesReceipt": "Sales Receipt",
+    "receiptNo": "Receipt No",
+    "date": "Date",
+    "customer": "Customer",
+    "parcelNo": "Parcel No",
+    "qty": "Qty",
+    "price": "Price",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "tax": "Tax",
+    "amountPaid": "Amount Paid",
+    "change": "Change",
+    "remaining": "Remaining (Payable)",
+    "advance": "Advance (Receivable)",
+    "fullyPaid": "Fully Paid",
+    "noBalance": "No remaining balance.",
+    "thankYou": "Thank you for your business!",
+    "footer": "Bahoo Steel Industry"
+  },
+  "Sales": {
+    "title": "Sales & Billing",
+    "description": "Sales management, customer billing, and account calculations",
+    "totalRevenue": "Revenue",
+    "pointOfSale": "Point of Sale",
+    "posSubtitle": "Quick and easy billing for walk-in customers",
+    "openPOS": "Open POS",
+    "kpi": {
+      "todaySales": "Today Sales",
+      "activeOrders": "Active Orders",
+      "customers": "Customers",
+      "pendingPayments": "Pending Payments"
+    },
+    "tabs": {
+      "orders": "Sales Orders",
+      "invoices": "Invoices",
+      "customers": "Customers",
+      "payments": "Payments"
+    },
+    "search": "Search",
+    "export": "Export",
+    "close": "Close"
+  },
+  "Employees": {
+    "title": "Employee Management",
+    "description": "Manage employees with fixed and per-piece salaries",
+    "totalEmp": "Total Employees",
+    "kpi": {
+      "moldingEmployees": "Molding Employees",
+      "polishingEmployees": "Polishing Employees",
+      "monthlySalaryEmployees": "Fixed Salary",
+      "pieceRateEmployees": "Per Piece Salary"
+    },
+    "tabs": {
+      "employees": "Employees",
+      "production": "Production Tracker",
+      "attendance": "Attendance",
+      "payroll": "Payroll"
+    },
+    "search": "Search",
+    "export": "Export",
+    "addEmployee": "Add Employee",
+    "addAttendance": "Add Attendance"
+  },
+  "Expenses": {
+    "title": "Expenses Management",
+    "description": "Track and manage business expenses efficiently",
+    "totalExpense": "Total Expense",
+    "kpi": {
+      "todayExpenses": "Total Expenses",
+      "categories": "Categories",
+      "pendingApprovals": "Pending Approvals",
+      "thisMonth": "This Month Expense"
+    },
+    "tabs": {
+      "expenses": "Expenses",
+      "expense-category": "Categories"
+    },
+    "search": "Search",
+    "export": "Export",
+    "addExpense": "Add Expense",
+    "addCategory": "Add Category"
+  },
+  "Customers": {
+    "title": "Customer Management",
+    "description": "Manage customer information and relationships",
+    "totalRevenue": "Total Revenue",
+    "kpi": {
+      "totalCustomers": "Total Customers",
+      "activeCustomers": "Active Customers",
+      "totalOrders": "Total Orders",
+      "monthlyRevenue": "Revenue This Month"
+    },
+    "tabs": {
+      "customers": "Customers",
+      "orders": "Customer Orders",
+      "payments": "Payment History"
+    },
+    "search": "Search",
+    "export": "Export",
+    "addCustomer": "Add Customer"
+  },
+  "Transactions": {
+    "title": "Transactions",
+    "description": "Process all payable, receivable, and salary transactions",
+    "totalAmount": "Total Transaction's Amount",
+    "stats": {
+      "total": "Total Transactions",
+      "month": "This Month",
+      "pending": "Pending Approval",
+      "failed": "Failed Transactions"
+    },
+    "tabs": {
+      "transactions": "All Transactions",
+      "bill": "Bill Payments",
+      "salary": "Salary Payments",
+      "expense": "Expense Payments"
+    },
+    "search": "Search",
+    "export": "Export",
+    "newBill": "New Bill Payment",
+    "newSalary": "New Salary Payment",
+    "newExpense": "New Expense Payment"
+  },
+  "Reports": {
+    "title": "Reports",
+    "description": "Generate comprehensive manufacturing and business reports",
+    "totalReports": "Total Reports",
+    "kpi": {
+      "generatedToday": "Generated Today",
+      "generated": "Generated",
+      "scheduledReports": "Scheduled Reports",
+      "failedReports": "Failed Reports"
+    },
+    "tabs": {
+      "stock": "Stock Reports",
+      "production": "Production Reports",
+      "sales": "Sales Reports",
+      "financial": "Financial Reports"
+    },
+    "search": "Search",
+    "export": "Export",
+    "generateReport": "Generate Report"
+  },
+  "ComingSoon": {
+    "title": "Coming Soon",
+    "description": "We’re working hard to bring you something awesome! Stay tuned for updates and be the first to experience the next big thing.",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "backToDashboard": "Back to Dashboard"
+  },
+  "SearchBar": {
+    "placeholder": "Search...",
+    "filters": "Filters",
+    "all": "All",
+    "clear": "Clear",
+    "search": "Search"
+  },
+  "OptimizedTable": {
+    "showingResults": "Showing {start} to {end} of {total} results",
+    "to": "to",
+    "toOf": "of",
+    "showing": "Showing",
+    "results": "results",
+    "compact": "Compact",
+    "showAll": "Show All",
+    "viewDetails": "View Details",
+    "close": "Close ✕",
+    "previousOrders": "Previous Orders",
+    "orderNumber": "Order #",
+    "date": "Date",
+    "items": "Items",
+    "total": "Total",
+    "status": "Status",
+    "noOrders": "No orders found for this customer.",
+    "actions": "Actions",
+    "view": "View",
+    "edit": "Edit",
+    "page": "Page",
+    "of": "of",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "forms": {
+    "raw-material": {
+      "title": "Add New Raw Material",
+      "description": "Add new raw material to your inventory.",
+      "fields": {
+        "name": "Material Name",
+        "sizeId": "Standard Size (in)",
+        "gageId": "Standard Gauge (in)",
+        "unitWeight": "Standard Unit Weight (gm)",
+        "weight": "Weight (kg)",
+        "totalQuantity": "Total Quantity (pcs)",
+        "description": "Description"
+      }
+    },
+
+    "sizes": {
+      "title": "Add New Size",
+      "description": "Add a new size for your material.",
+      "fields": {
+        "name": "Size Name",
+        "length": "Total Length (in)",
+        "width": "Total Width (in)",
+        "description": "Description"
+      }
+    },
+
+    "gages": {
+      "title": "Add New Gauge",
+      "description": "Add a new gauge for your material.",
+      "fields": {
+        "name": "Gauge Name",
+        "gage": "Standard Gauge (mm)",
+        "description": "Description"
+      }
+    },
+
+    "unit-weight": {
+      "title": "Add Unit Weight",
+      "description": "Add a new unit weight for the material.",
+      "fields": {
+        "sizeId": "Standard Size",
+        "gageId": "Standard Gauge",
+        "weight": "Total Weight (gm)",
+        "description": "Description"
+      }
+    },
+
+    "molding-entry": {
+      "title": "New Molding Entry",
+      "description": "Create a new molding production entry.",
+      "fields": {
+        "productId": "Material Name",
+        "employeeId": "Operator (Employee)",
+        "productTypeId": "Product Name",
+        "productRate": "Product Rate",
+        "quantity": "Quantity",
+        "totalEarn": "Total Earnings",
+        "damage": "Damaged Pieces",
+        "finalQuantity": "Final Quantity",
+        "qualityNotes": "Quality Notes"
+      }
+    },
+
+    "product-type": {
+      "title": "Add New Product Name",
+      "description": "Add a new product for molding.",
+      "fields": {
+        "productType": "Product Name",
+        "description": "Description"
+      }
+    },
+
+    "product-rate": {
+      "title": "Add Product Rate for Employee",
+      "description": "Add a new product rate for employees working on pieces.",
+      "fields": {
+        "productTypeId": "Product Name",
+        "employeeId": "Employee",
+        "rate": "Rate per Product",
+        "description": "Description"
+      }
+    },
+
+    "polishing": {
+      "title": "New Polishing Entry",
+      "description": "Create a new polishing production entry.",
+      "fields": {
+        "productId": "Product Name",
+        "employeeId": "Operator (Employee)",
+        "polishingRate": "Polishing Rate",
+        "quantity": "Quantity",
+        "totalEarn": "Total Earnings",
+        "qualityNotes": "Quality Notes"
+      }
+    },
+
+    "polishing-rate": {
+      "title": "Add Polishing Rate",
+      "description": "Add polishing rate for employees working on pieces.",
+      "fields": {
+        "productId": "Product Name",
+        "employeeId": "Employee",
+        "rate": "Rate per Product",
+        "description": "Description"
+      }
+    },
+
+    "packing": {
+      "title": "New Packing Entry",
+      "description": "Create a new packing entry for polished products.",
+      "fields": {
+        "productId": "Product Name",
+        "quantity": "Quantity",
+        "qualityNotes": "Quality Notes"
+      }
+    },
+
+    "employees": {
+      "title": "Add New Employee",
+      "description": "Add a new employee to the system.",
+      "fields": {
+        "name": "Employee Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "department": "Department",
+        "position": "Position",
+        "salaryType": "Salary Type",
+        "monthlySalary": "Monthly Salary",
+        "address": "Address",
+        "qualityNotes": "Quality Notes"
+      }
+    }
+  }
+}

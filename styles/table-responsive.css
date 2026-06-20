@@ -1,0 +1,178 @@
+/* Responsive Table Styles */
+
+/* Base table container */
+.table-container {
+  @apply overflow-x-auto overflow-y-auto;
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.gray.300') theme('colors.gray.100');
+}
+
+.table-container::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-500;
+}
+
+/* Sticky header */
+.table-sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: inherit;
+}
+
+/* Mobile responsive table */
+@media (max-width: 640px) {
+  .table-mobile-compact {
+    font-size: 0.875rem;
+  }
+  
+  .table-mobile-compact th,
+  .table-mobile-compact td {
+    @apply px-3 py-2;
+  }
+  
+  .table-mobile-compact th {
+    @apply text-xs;
+  }
+}
+
+/* Table cell truncation */
+.table-cell-truncate {
+  @apply truncate;
+  max-width: 12rem;
+}
+
+/* Table hover effects */
+.table-row-hover {
+  @apply transition-colors duration-150;
+}
+
+.table-row-hover:hover {
+  @apply bg-gray-50 dark:bg-gray-800/50;
+}
+
+/* Pagination responsive */
+.pagination-mobile {
+  @apply flex-col space-y-3;
+}
+
+@media (min-width: 640px) {
+  .pagination-mobile {
+    @apply flex-row space-y-0;
+  }
+}
+
+/* Column visibility controls */
+.column-controls {
+  @apply relative;
+}
+
+.column-dropdown {
+  @apply absolute right-0 top-full mt-2 w-48 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg z-20 opacity-0 invisible;
+  transition: all 0.2s ease-in-out;
+}
+
+.column-controls:hover .column-dropdown {
+  @apply opacity-100 visible;
+}
+
+/* Table loading states */
+.table-loading {
+  @apply animate-pulse;
+}
+
+.table-skeleton-row {
+  @apply h-16 bg-gray-200 dark:bg-gray-700 rounded;
+}
+
+/* Table empty state */
+.table-empty {
+  @apply text-center py-12 text-gray-500 dark:text-gray-400;
+}
+
+/* Table actions */
+.table-actions {
+  @apply flex space-x-2;
+}
+
+.table-action-button {
+  @apply px-3 py-1 text-sm rounded-lg transition-colors duration-150;
+}
+
+.table-action-button:hover {
+  @apply bg-gray-100 dark:bg-gray-700;
+}
+
+/* Sort indicators */
+.sort-indicator {
+  @apply flex flex-col;
+}
+
+.sort-indicator svg {
+  @apply h-3 w-3;
+}
+
+.sort-indicator svg:first-child {
+  @apply -mb-1;
+}
+
+/* Table responsive breakpoints */
+@media (max-width: 768px) {
+  .table-hide-mobile {
+    @apply hidden;
+  }
+}
+
+@media (max-width: 1024px) {
+  .table-hide-tablet {
+    @apply hidden;
+  }
+}
+
+/* Table priority system */
+.table-priority-1 {
+  @apply hidden sm:table-cell;
+}
+
+.table-priority-2 {
+  @apply hidden md:table-cell;
+}
+
+.table-priority-3 {
+  @apply hidden lg:table-cell;
+}
+
+/* Dark mode table styles */
+@media (prefers-color-scheme: dark) {
+  .table-container {
+    scrollbar-color: theme('colors.gray.600') theme('colors.gray.800');
+  }
+}
+
+/* Print styles */
+@media print {
+  .table-container {
+    @apply overflow-visible;
+  }
+  
+  .table-actions,
+  .pagination-mobile {
+    @apply hidden;
+  }
+  
+  .table-sticky-header {
+    position: static;
+  }
+}

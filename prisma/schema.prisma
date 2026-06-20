@@ -1,0 +1,239 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Material page content starts form here...
+model materials {
+  id            Int       @id @default(autoincrement())
+  name          String
+  category      String?
+  supplier      String?
+  totalQuantity Int       @default(0)
+  unit          String?
+  cost          Decimal?
+  weight        Float?
+  sizeId        Int?
+  gageId        Int?
+  unitWeightId  Int?
+  description   String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime? @updatedAt
+  deletedAt     DateTime?
+
+  size       sizes?        @relation(fields: [sizeId], references: [id])
+  gage       gages?        @relation(fields: [gageId], references: [id])
+  unitWeight unit_weights? @relation(fields: [unitWeightId], references: [id])
+
+  molding_entries molding_entries[]
+}
+
+model sizes {
+  id          Int       @id @default(autoincrement())
+  name        String
+  length      Float
+  width       Float
+  description String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime? @updatedAt
+
+  materials    materials[]
+  unit_weights unit_weights[]
+}
+
+model gages {
+  id          Int       @id @default(autoincrement())
+  name        String
+  gage        Float
+  description String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime? @updatedAt
+
+  materials    materials[]
+  unit_weights unit_weights[]
+}
+
+model unit_weights {
+  id          Int       @id @default(autoincrement())
+  sizeId      Int
+  gageId      Int
+  weight      Float
+  description String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime? @updatedAt
+
+  size      sizes       @relation(fields: [sizeId], references: [id])
+  gage      gages       @relation(fields: [gageId], references: [id])
+  materials materials[]
+}
+
+// Molding page content starts form here...
+model molding_entries {
+  id            Int           @id @default(autoincrement())
+  productTypeId Int
+  productRate   Int
+  totalEarn     Int
+  materialId    Int
+  quantity      Int           @default(0)
+  damage        Int           @default(0)
+  finalQuantity Int           @default(0)
+  qualityNotes  String?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime?     @updatedAt
+  deletedAt     DateTime?
+  userId        Int?
+  materials     materials     @relation(fields: [materialId], references: [id])
+  product_types product_types @relation(fields: [productTypeId], references: [id])
+  employees     employees     @relation(fields: [employeeId], references: [id])
+  employeeId    Int
+}
+
+model product_types {
+  id                  Int                   @id @default(autoincrement())
+  productType         String                @unique
+  description         String?
+  createdAt           DateTime              @default(now())
+  updatedAt           DateTime?             @updatedAt
+  deletedAt           DateTime?
+  molding_entries     molding_entries[]
+  remaining_molding   remaining_molding[]
+  productRates        product_rates[]
+  remainingPolishings remaining_polishing[]
+  remainingPackings   remaining_packing[]
+  polishingRates      polishing_rates[]
+}
+
+model product_rates {
+  id          Int       @id @default(autoincrement())
+  productId   Int
+  employeeId  Int
+  productRate Int       @default(0)
+  description String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime? @updatedAt
+  deletedAt   DateTime?
+
+  product_types product_types @relation(fields: [productId], references: [id])
+  employees     employees     @relation(fields: [employeeId], references: [id])
+}
+
+model remaining_molding {
+  id            Int       @id @default(autoincrement())
+  productTypeId Int?
+  totalQuantity Int       @default(0)
+  totalDamage   Int?      @default(0)
+  remaining     Int       @default(0)
+  description   String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime? @updatedAt
+
+  product_types    product_types?      @relation(fields: [productTypeId], references: [id])
+  polishingEntries polishing_entries[]
+}
+
+// Polishing page content starts form here...
+model polishing_entries {
+  id            Int       @id @default(autoincrement())
+  productId     Int
+  employeeId    Int
+  quantity      Int
+  polishingRate Int
+  totalEarn     Int
+  qualityNotes  String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime? @updatedAt
+  deletedAt     DateTime?
+
+  remaining_molding remaining_molding @relation(fields: [productId], references: [id])
+  employees         employees         @relation(fields: [employeeId], references: [id])
+}
+
+model polishing_rates {
+  id            Int       @id @default(autoincrement())
+  productId     Int
+  employeeId    Int
+  polishingRate Int       @default(0)
+  description   String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime? @updatedAt
+  deletedAt     DateTime?
+
+  product_types product_types @relation(fields: [productId], references: [id])
+  employees     employees     @relation(fields: [employeeId], references: [id])
+}
+
+model remaining_polishing {
+  id            Int       @id @default(autoincrement())
+  productTypeId Int?
+  totalQuantity Int       @default(0)
+  remaining     Int       @default(0)
+  description   String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime? @updatedAt
+
+  product_types  product_types?    @relation(fields: [productTypeId], references: [id])
+  packingEntries packing_entries[]
+}
+
+// Packing page content starts form here...
+model packing_entries {
+  id           Int       @id @default(autoincrement())
+  productId    Int
+  quantity     Int
+  qualityNotes String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime? @updatedAt
+  deletedAt    DateTime?
+
+  remaining_polishing remaining_polishing @relation(fields: [productId], references: [id])
+}
+
+model remaining_packing {
+  id            Int       @id @default(autoincrement())
+  productTypeId Int?
+  totalQuantity Int       @default(0)
+  remaining     Int       @default(0)
+  description   String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime? @updatedAt
+
+  product_types product_types? @relation(fields: [productTypeId], references: [id])
+}
+
+model employees {
+  id            Int                @id @default(autoincrement())
+  name          String
+  email         String?
+  phone         String
+  department    String
+  position      String?
+  salaryType    EmployeeSalaryType
+  pieceRate     Decimal?
+  monthlySalary Decimal?
+  status        EmployeeStatus     @default(ACTIVE)
+  address       String?
+  qualityNotes  String?
+  createdAt     DateTime           @default(now())
+  updatedAt     DateTime?          @updatedAt
+  deletedAt     DateTime?
+  departmentId  Int?
+
+  molding_entries   molding_entries[]
+  polishing_entries polishing_entries[]
+  productRates      product_rates[]
+  polishingRates    polishing_rates[]
+}
+
+enum EmployeeSalaryType {
+  PIECE
+  MONTHLY
+}
+
+enum EmployeeStatus {
+  ACTIVE
+  INACTIVE
+}

@@ -1,0 +1,586 @@
+{
+  "top-bar": {
+    "searchPlaceholder": "...ماڈیولز، ڈیٹا یا کچھ بھی تلاش کریں",
+    "quickActions": "فوری عمل",
+    "dashboardSearch": "ڈیش بورڈ میں تلاش کریں۔",
+    "profile": "پروفائل",
+    "settings": "ترتیبات",
+    "logout": "سائن آؤٹ",
+    "viewProfile": "پروفائل دیکھیں اور ترمیم کریں",
+    "preferences": "ترجیحات اور تشکیل",
+    "endSession": "اپنا سیشن ختم کریں"
+  },
+  "ProfitLoss": {
+    "title": "منافع اور نقصان کا تجزیہ",
+    "subtitle": "جامع مالی کارکردگی کا تجزیہ اور رجحانات",
+    "period": {
+      "monthly": "ماہانہ (آخری 12 مہینے)",
+      "yearly": "سالانہ (آخری 5 سال)",
+      "custom": "اپنی مرضی کی حد"
+    },
+    "kpi": {
+      "totalRevenue": "ٹوٹل آمدنی",
+      "totalExpenses": "ٹوٹل اخراجات",
+      "grossProfit": "کُل منافع",
+      "netProfit": "خالص منافع"
+    },
+    "chart": {
+      "title": "مالی رجحانات",
+      "subtitle": "آمدنی، اخراجات اور منافع کے وقت کے ساتھ رجحانات",
+      "interactive": "انٹرایکٹو چارٹ"
+    },
+    "summary": {
+      "title": "مالی خلاصہ",
+      "totalRevenue": "ٹوٹل آمدنی",
+      "costOfGoodsSold": "فروخت شدہ سامان کی قیمت",
+      "grossProfit": "کُل منافع",
+      "operatingExpenses": "آپریٹنگ اخراجات",
+      "netProfit": "خالص منافع"
+    },
+    "actions": {
+      "refresh": "تازہ کریں",
+      "export": "ایکسپورٹ"
+    }
+  },
+  "quick": {
+    "quickAd": "فوری شامل",
+    "quickForm": "فوری فارم شامل کریں "
+  },
+  "Dashboard": {
+    "title": "ڈیش بورڈ",
+    "welcome": "خوش آمدید! یہاں آپ کے کاروبار کا جائزہ اور معلومات ہیں۔",
+    "kpi": {
+      "totalMaterial": "ٹوٹل خام مال",
+      "totalMolding": "ٹوٹل مولڈنگ",
+      "totalPolishing": "ٹوٹل پالشنگ",
+      "totalStock": "ٹوٹل اسٹاک"
+    },
+    "chartTitle": "منافع اور نقصان کا تجزیہ",
+    "chartSubtitle": "تمام مراحل میں ہفتہ وار پیداوار",
+    "chart": {
+      "molding": "مولڈنگ",
+      "polishing": "پالشنگ",
+      "packing": "پیکنگ",
+      "yAxis": "تیار شدہ پیس"
+    },
+    "comingSoon": "چارٹ جلد آرہا ہے",
+    "comingSoonDesc": "انٹرایکٹو چارٹس جلد دستیاب ہوں گے"
+  },
+  "QuickAccess": {
+    "title": "فوری رسائی",
+    "mostUsed": "زیادہ استعمال ہونے والے اعمال",
+    "access": "رسائی",
+    "moduleShortcuts": "ماڈیول شارٹ کٹس",
+    "shortcuts": {
+      "rawMaterial": "خام مال",
+      "molding": "مولڈنگ",
+      "polishing": "پالشنگ",
+      "packing": "پیکنگ",
+      "stock": "اسٹاک",
+      "reports": "رپورٹس"
+    },
+    "items": {
+      "rawMaterial": {
+        "title": "خام مال",
+        "desc": "خام مال شامل کریں اور منظم کریں"
+      },
+      "molding": { "title": "مولڈنگ ڈیٹا", "desc": "مولڈنگ عمل دیکھیں" },
+      "polishing": { "title": "پالشنگ", "desc": "عمل کو ٹریک کریں اور دیکھیں" },
+      "employees": {
+        "title": "ملازمین کی کارکردگی",
+        "desc": "تمام ملازمین کی سرگرمیاں دیکھیں"
+      },
+      "stock": { "title": "اسٹاک مینجمنٹ", "desc": "اسٹاک سرگرمیاں دیکھیں" },
+      "sales": {
+        "title": "فروخت اوورویو",
+        "desc": "فروخت کی معلومات ریکارڈ اور دیکھیں"
+      },
+      "stockReport": {
+        "title": "اسٹاک رپورٹ",
+        "desc": "انوینٹری لیولز دیکھیں"
+      }
+    }
+  },
+  "Sidebar": {
+    "Modules": {
+      "dashboard": "ڈیش بورڈ",
+      "rawMaterials": "خام مال",
+      "molding": "مولڈنگ عمل",
+      "polishing": "پالشنگ عمل",
+      "packing": "پیکنگ عمل",
+      "stock": "اسٹاک مینجمنٹ",
+      "sales": "فروخت اور بلنگ",
+      "employees": "ملازمین کا انتظام",
+      "expenses": "اخراجات",
+      "customers": "گاہک",
+      "transactions": "ٹرانزیکشنز",
+      "reports": "رپورٹس",
+      "admin": "ایڈمن پینل"
+    },
+    "title": "آٹومیٹ پراسیس",
+    "subtitle": "بزنس مینجمنٹ",
+    "comingSoon": "جلد آ رہا ہے",
+    "footer": "© 2024 آٹومیٹ پراسیس v2.0"
+  },
+  "RawMaterials": {
+    "title": "خام مال",
+    "description": "معیاری سائز، گیجز اور یونٹ وزن کی ٹریکنگ کے ساتھ خام مال کا انتظام کریں",
+    "totalMaterials": "ٹوٹل مواد",
+    "kpi": {
+      "totalMaterials": "ٹوٹل اشیاء",
+      "todayMaterials": "آج کی اشیاء",
+      "totalWeight": "ٹوٹل وزن",
+      "remainingQuantity": "بقیہ مقدار"
+    },
+    "export": "برآمد کریں",
+    "addMaterial": "مواد شامل کریں",
+    "addSize": "سائز شامل کریں",
+    "addGage": "گیج شامل کریں",
+    "addUnitWeight": "یونٹ وزن شامل کریں",
+    "search": "تلاش کریں",
+    "filter": "فلٹرز",
+
+    "tabs": {
+      "materials": "خام مال",
+      "sizes": "معیاری سائز",
+      "gages": "معیاری گیجز",
+      "unit-weight": "معیاری یونٹ وزن",
+      "remaining": "بقیہ مواد"
+    }
+  },
+  "Molding": {
+    "title": "مولڈنگ پروسیس",
+    "description": "مولڈنگ پروڈکشن، ملازمین کی کارکردگی، مواد کے استعمال اور ویسٹ کیلکولیشن کا انتظام کریں",
+    "totalMold": "ٹوٹل مولڈنگ",
+    "kpi": {
+      "todayMolding": "آج کی مولڈنگ",
+      "totalDamage": "ٹوٹل خراب",
+      "materialUsed": "استعمال شدہ مواد",
+      "moldingItems": "مولڈنگ پروڈکٹس"
+    },
+    "tabs": {
+      "production": "مولڈنگ لاگ",
+      "employees": "ملازمین کی کارکردگی",
+      "materials": "مواد کا استعمال",
+      "product-type": "پروڈکٹس",
+      "product-rate": "پروڈکٹس کے ریٹس",
+      "remaining": "مولڈ شدہ مصنوعات"
+    },
+    "search": "تلاش کریں",
+    "export": "برآمد کریں",
+    "newEntry": "نیا اندراج",
+    "addProductType": "نئی پروڈکٹ شامل کریں",
+    "addProductRate": "نیا پروڈکٹ ریٹ شامل کریں"
+  },
+  "Polishing": {
+    "title": "پولشنگ پروسیس",
+    "description": "پولشنگ پروڈکشن، ملازمین کی کارکردگی، مولڈ شدہ آئٹمز کے استعمال اور ویسٹ کیلکولیشن کا انتظام کریں",
+    "totalPolish": "ٹوٹل پولشنگ",
+    "kpi": {
+      "todayPolished": "آج پولش شدہ",
+      "activeEmployees": "فعال ملازمین",
+      "moldedItemsUsed": "استعمال شدہ مولڈ شدہ آئٹمز",
+      "polishedItems": "پولش شدہ آئٹمز"
+    },
+
+    "tabs": {
+      "polishing": "پولشنگ لاگ",
+      "employees": "ملازمین کی کارکردگی",
+      "polishing-rate": "پولشنگ ریٹس",
+      "remaining": "پولش شدہ مصنوعات"
+    },
+    "search": "تلاش کریں",
+    "export": "برآمد کریں",
+    "newEntry": "نیا اندراج",
+    "addPolishingRate": "نیا پولشنگ ریٹ شامل کریں"
+  },
+  "Packing": {
+    "title": "پیکنگ پروسیس",
+    "description": "آئٹمز کی پیکنگ، پولش شدہ آئٹمز کے استعمال اور ٹوٹل پیک شدہ آئٹمز کا انتظام کریں",
+    "totalPacking": "ٹوٹل پیک شدہ آئٹمز",
+    "kpi": {
+      "polishedItemsUsed": "استعمال شدہ پولش شدہ آئٹمز",
+      "todayPacked": "آج پیک شدہ",
+      "totalProducts": "ٹوٹل مصنوعات",
+      "remaining": "بقیہ پیک شدہ آئٹمز"
+    },
+    "tabs": {
+      "packing": "پیکنگ لاگ",
+      "materials": "پولش شدہ آئٹمز کا استعمال",
+      "totalPacked": "پیک شدہ مصنوعات"
+    },
+    "export": "برآمد کریں",
+    "newEntry": "نیا اندراج",
+    "search": "تلاش کریں"
+  },
+  "Stock": {
+    "title": "اسٹاک مینجمنٹ",
+    "description": "تیار شدہ مصنوعات کی فہرست، اقسام، وزن اور سائز کی مینیجمنٹ",
+    "totalValue": "ٹوٹل مالیت",
+    "tabs": {
+      "stock": "اسٹاک مصنوعات",
+      "categories": "اشیاء کی اقسام",
+      "totalPacked": "ٹوٹل پیک شدہ اشیاء",
+      "alerts": "اسٹاک الرٹس"
+    },
+    "kpi": {
+      "totalProducts": "ٹوٹل مصنوعات",
+      "categories": "ٹوٹل اقسام",
+      "lowStock": "کم اسٹاک مصنوعات",
+      "totalValue": "ٹوٹل مالیت"
+    },
+
+    "export": "برآمد کریں",
+    "addStock": "نیا اسٹاک شامل کریں",
+    "addCategory": "قسم شامل کریں",
+    "search": "تلاش کریں"
+  },
+  "Sales": {
+    "title": "فروخت اور بلنگ",
+    "description": "فروخت کا انتظام، گاہک بلنگ اور اکاؤنٹ کیلکولیشنز",
+    "totalRevenue": "آمدنی",
+    "pointOfSale": "پوائنٹ آف سیل",
+    "posSubtitle": "واک ان گاہکوں کے لیے تیز اور آسان بلنگ",
+    "openPOS": "پی او ایس کھولیں",
+    "kpi": {
+      "todaySales": "آج کی فروخت",
+      "activeOrders": "فعال آرڈرز",
+      "customers": "گاہک",
+      "pendingPayments": "زیر التواء ادائیگیاں"
+    },
+    "tabs": {
+      "orders": "فروخت کے آرڈر",
+      "invoices": "انوائسز",
+      "customers": "گاہک",
+      "payments": "ادائیگیاں"
+    },
+    "search": "تلاش کریں",
+    "export": "برآمد کریں",
+    "close": "بند کریں"
+  },
+  "POS": {
+    "posTitle": "پوائنٹ آف سیل",
+    "back": "واپس جائیں",
+    "cart": "ٹوکری",
+    "item": "اشیاء",
+    "search": "...اشیاء تلاش کریں",
+    "noItems": "ٹوکری میں کوئی اشیاء نہیں",
+    "stock": "سامان",
+    "unitPrice": "نئی یونٹ قیمت",
+    "selectCustomer": "گاہک منتخب کریں",
+    "processPayment": "ادائیگی کریں",
+    "leavePageTitle": "پی او ایس صفحہ چھوڑیں؟",
+    "leavePageMsg": "کیا آپ واقعی پی او ایس صفحہ چھوڑنا چاہتے ہیں؟ غیر محفوظ ڈیٹا ضائع ہو سکتا ہے۔",
+    "yesLeave": "جی، چھوڑیں",
+    "cancel": "منسوخ کریں",
+    "parcelNumber": "پارسل نمبر",
+    "enterParcelNumber": "پارسل نمبر لکھیں",
+    "searchProducts": "پروڈکٹس تلاش کریں",
+    "allCategories": "تمام زمرے",
+    "paymentAmount": "ادائیگی کی رقم",
+    "printReceipt": "رسید پرنٹ کریں",
+    "receiptPreview": "رسید کا پیش نظارہ",
+    "exactAmount": "درست رقم",
+    "processing": "...پروسیسنگ",
+    "makePay": "ادائیگی کریں۔",
+    "generateBill": "بل تیار کریں۔",
+    "companyName": "باہو اسٹیل انڈسٹری",
+    "address": "نوشہرہ روڈ، گوجرانوالہ",
+    "salesReceipt": "فروخت کی رسید",
+    "receiptNo": "رسید نمبر",
+    "date": "تاریخ",
+    "customer": "گاہک",
+    "parcelNo": "پارسل نمبر",
+    "qty": "مقدار",
+    "price": "قیمت",
+    "total": "ٹوٹل",
+    "subtotal": "ذیلی ٹوٹل",
+    "discount": "چھوٹ",
+    "tax": "ٹیکس",
+    "totalAmount": "ٹوٹل رقم",
+    "paymentMethod": "ادائیگی کا طریقہ",
+    "amountPaid": "ادا شدہ رقم",
+    "change": "بقیہ رقم",
+    "remaining": "باقی (ادا کرنی ہے)",
+    "advance": "ایڈوانس (وصولی ہے)",
+    "fullyPaid": "مکمل ادائیگی",
+    "noBalance": "کوئی باقی رقم نہیں۔",
+    "thankYou": "آپ کے کاروبار کا شکریہ!",
+    "footer": "باہو اسٹیل انڈسٹری"
+  },
+  "Employees": {
+    "title": "ملازمین کا انتظام",
+    "description": "مستقل اور فی پیس اجرت والے ملازمین کا انتظام کریں",
+    "totalEmp": "ٹوٹل ملازمین",
+    "kpi": {
+      "moldingEmployees": "مولڈنگ کے ملازمین",
+      "polishingEmployees": "پولشنگ کے ملازمین",
+      "monthlySalaryEmployees": "مستقل تنخواہ والے ملازمین",
+      "pieceRateEmployees": "فی پیس اجرت والے ملازمین"
+    },
+    "tabs": {
+      "employees": "ملازمین",
+      "production": "پیداوار ٹریکر",
+      "attendance": "حاضری",
+      "payroll": "تنخواہیں"
+    },
+    "search": "تلاش کریں",
+    "export": "برآمد کریں",
+    "addEmployee": "ملازم شامل کریں",
+    "addAttendance": "حاضری شامل کریں"
+  },
+  "Expenses": {
+    "title": "اخراجات کا انتظام",
+    "description": "کاروباری اخراجات کو مؤثر طریقے سے منظم کریں",
+    "totalExpense": "ٹوٹل خرچ",
+    "kpi": {
+      "todayExpenses": "آج کے اخراجات",
+      "categories": "اقسام",
+      "pendingApprovals": "زیر التواء منظوری",
+      "thisMonth": "اس مہینے کا خرچ"
+    },
+    "tabs": {
+      "expenses": "اخراجات",
+      "expense-category": "اقسام"
+    },
+    "search": "تلاش کریں",
+    "export": "برآمد کریں",
+    "addExpense": "خرچ شامل کریں",
+    "addCategory": "قسم شامل کریں"
+  },
+  "Customers": {
+    "title": "گاہک مینجمنٹ",
+    "description": "گاہک کی معلومات اور تعلقات کو منظم کریں",
+    "totalRevenue": "ٹوٹل آمدنی ",
+    "kpi": {
+      "totalCustomers": "ٹوٹل گاہکز",
+      "activeCustomers": "فعال گاہکز",
+      "totalOrders": "ٹوٹل آرڈرز",
+      "monthlyRevenue": "اس مہینے کی آمدنی"
+    },
+    "tabs": {
+      "customers": "گاہکز",
+      "orders": "گاہک آرڈرز",
+      "payments": "ادائیگیوں کی ہسٹری"
+    },
+    "search": "تلاش کریں",
+    "export": "ایکسپورٹ",
+    "addCustomer": "نیا گاہک شامل کریں"
+  },
+  "Transactions": {
+    "title": "لین دین",
+    "description": "تمام ادائیگی، وصولی اور تنخواہ کے لین دین کو پراسیس کریں",
+    "totalAmount": "ٹوٹل لین دین کی رقم",
+    "kpi": {
+      "total": "ٹوٹل لین دین",
+      "month": "اس مہینے کا لین دین",
+      "pending": "زیر منظوری",
+      "failed": "ناکام لین دین"
+    },
+    "tabs": {
+      "transactions": "تمام لین دین",
+      "bill": "بل کی ادائیگیاں",
+      "salary": "تنخواہ کی ادائیگیاں",
+      "expense": "اخراجاتی ادائیگیاں"
+    },
+    "search": "تلاش کریں",
+    "export": "ایکسپورٹ",
+    "newBill": "نئی بل ادائیگی",
+    "newSalary": "نئی تنخواہ ادائیگی",
+    "newExpense": "نئی اخراجاتی ادائیگی"
+  },
+  "Reports": {
+    "title": "رپورٹس",
+    "description": "مکمل مینوفیکچرنگ اور کاروباری رپورٹس تیار کریں",
+    "totalReports": "ٹوٹل رپورٹس",
+    "kpi": {
+      "generatedToday": "آج تیار شدہ",
+      "generated": "تیار شدہ",
+      "scheduledReports": "شیڈول رپورٹس",
+      "failedReports": "ناکام رپورٹس"
+    },
+    "tabs": {
+      "stock": "اسٹاک رپورٹس",
+      "production": "پیداوار رپورٹس",
+      "sales": "فروخت رپورٹس",
+      "financial": "مالیاتی رپورٹس"
+    },
+    "search": "تلاش کریں",
+    "filter": "فلٹر کریں",
+    "export": "برآمد کریں",
+    "generateReport": "رپورٹ تیار کریں"
+  },
+  "ComingSoon": {
+    "title": "جلد آ رہا ہے",
+    "description": "ہم آپ کے لیے کچھ زبردست لا رہے ہیں! تازہ ترین اپ ڈیٹس کے لیے ہمارے ساتھ رہیں اور سب سے پہلے نئی چیز کا تجربہ کریں۔",
+    "days": "دن",
+    "hours": "گھنٹے",
+    "minutes": "منٹ",
+    "seconds": "سیکنڈ",
+    "backToDashboard": "ڈیش بورڈ پر واپس جائیں"
+  },
+  "SearchBar": {
+    "placeholder": "...تلاش کریں",
+    "filters": "فلٹرز",
+    "all": "تمام",
+    "clear": "صاف کریں"
+  },
+  "OptimizedTable": {
+    "showingResults": "نتائج {total} میں سے {start} سے {end} تک دکھائے جا رہے ہیں",
+    "showing": " دکھائے جا رہے ہیں",
+    "results": "نتائج",
+    "to": "سے",
+    "toOf": "میں سے",
+    "compact": "کمپیکٹ",
+    "showAll": "سب دکھائیں",
+    "viewDetails": "تفصیلات دیکھیں",
+    "close": "بند کریں ✕",
+    "previousOrders": "پچھلے آرڈرز",
+    "orderNumber": "آرڈر نمبر",
+    "date": "تاریخ",
+    "items": "آئٹمز",
+    "total": "ٹوٹل",
+    "status": "حیثیت",
+    "noOrders": "اس صارف کے لیے کوئی آرڈر نہیں ملا۔",
+    "actions": "اعمال",
+    "view": "دیکھیں",
+    "edit": "ترمیم کریں",
+    "page": "صفحہ",
+    "of": "کا",
+    "previous": "پچھلا",
+    "next": "اگلا"
+  },
+  "forms": {
+    "raw-material": {
+      "title": "نیا خام مال شامل کریں",
+      "description": "اپنی انوینٹری میں نیا خام مال شامل کریں۔",
+      "fields": {
+        "name": "میٹریل کا نام",
+        "sizeId": "معیاری سائز (انچ)",
+        "gageId": "معیاری گیج (انچ)",
+        "unitWeight": "معیاری یونٹ وزن (گرام)",
+        "weight": "وزن (ٹوٹلوگرام)",
+        "totalQuantity": "ٹوٹل مقدار (پیس)",
+        "description": "تفصیل"
+      }
+    },
+
+    "sizes": {
+      "title": "نیا سائز شامل کریں",
+      "description": "اپنے میٹریل کے لیے نیا سائز شامل کریں۔",
+      "fields": {
+        "name": "سائز کا نام",
+        "length": "ٹوٹل لمبائی (انچ)",
+        "width": "ٹوٹل چوڑائی (انچ)",
+        "description": "تفصیل"
+      }
+    },
+
+    "gages": {
+      "title": "نیا گیج شامل کریں",
+      "description": "اپنے میٹریل کے لیے نیا گیج شامل کریں۔",
+      "fields": {
+        "name": "گیج کا نام",
+        "gage": "معیاری گیج (ملی میٹر)",
+        "description": "تفصیل"
+      }
+    },
+
+    "unit-weight": {
+      "title": "یونٹ وزن شامل کریں",
+      "description": "میٹریل کے لیے نیا یونٹ وزن شامل کریں۔",
+      "fields": {
+        "sizeId": "معیاری سائز",
+        "gageId": "معیاری گیج",
+        "weight": "ٹوٹل وزن (گرام)",
+        "description": "تفصیل"
+      }
+    },
+
+    "molding-entry": {
+      "title": "نیا مولڈنگ انٹری",
+      "description": "مولڈنگ پروڈکشن کی نئی انٹری بنائیں۔",
+      "fields": {
+        "productId": "میٹریل کا نام",
+        "employeeId": "آپریٹر (ملازم)",
+        "productTypeId": "پروڈکٹ کا نام",
+        "productRate": "پروڈکٹ ریٹ",
+        "quantity": "مقدار",
+        "totalEarn": "ٹوٹل آمدنی",
+        "damage": "خراب پیس",
+        "finalQuantity": "حتمی مقدار",
+        "qualityNotes": "کوالٹی نوٹس"
+      }
+    },
+
+    "product-type": {
+      "title": "نیا پروڈکٹ نام شامل کریں",
+      "description": "مولڈنگ کے لیے نیا پروڈکٹ شامل کریں۔",
+      "fields": {
+        "productType": "پروڈکٹ کا نام",
+        "description": "تفصیل"
+      }
+    },
+
+    "product-rate": {
+      "title": "ملازم کے لیے پروڈکٹ ریٹ شامل کریں",
+      "description": "پیسیز پر کام کرنے والے ملازم کے لیے نیا پروڈکٹ ریٹ شامل کریں۔",
+      "fields": {
+        "productTypeId": "پروڈکٹ کا نام",
+        "employeeId": "ملازم",
+        "rate": "فی پروڈکٹ ریٹ",
+        "description": "تفصیل"
+      }
+    },
+
+    "polishing": {
+      "title": "نئی پالشنگ انٹری",
+      "description": "نئی پالشنگ پروڈکشن انٹری بنائیں۔",
+      "fields": {
+        "productId": "پروڈکٹ کا نام",
+        "employeeId": "آپریٹر (ملازم)",
+        "polishingRate": "پالشنگ ریٹ",
+        "quantity": "مقدار",
+        "totalEarn": "ٹوٹل آمدنی",
+        "qualityNotes": "کوالٹی نوٹس"
+      }
+    },
+
+    "polishing-rate": {
+      "title": "پالشنگ ریٹ شامل کریں",
+      "description": "پیسیز پر کام کرنے والے ملازم کے لیے پالشنگ ریٹ شامل کریں۔",
+      "fields": {
+        "productId": "پروڈکٹ کا نام",
+        "employeeId": "ملازم",
+        "rate": "فی پروڈکٹ ریٹ",
+        "description": "تفصیل"
+      }
+    },
+
+    "packing": {
+      "title": "نیا پیکنگ انٹری",
+      "description": "پالش شدہ پروڈکٹس کی نئی پیکنگ انٹری بنائیں۔",
+      "fields": {
+        "productId": "پروڈکٹ کا نام",
+        "quantity": "مقدار",
+        "qualityNotes": "کوالٹی نوٹس"
+      }
+    },
+
+    "employees": {
+      "title": "نیا ملازم شامل کریں",
+      "description": "سسٹم میں نیا ملازم شامل کریں۔",
+      "fields": {
+        "name": "ملازم کا نام",
+        "email": "ای میل",
+        "phone": "فون نمبر",
+        "department": "ڈیپارٹمنٹ",
+        "position": "عہدہ",
+        "salaryType": "تنخواہ کی قسم",
+        "monthlySalary": "ماہانہ تنخواہ",
+        "address": "اڈریس",
+        "qualityNotes": "کوالٹی نوٹس"
+      }
+    }
+  }
+}
