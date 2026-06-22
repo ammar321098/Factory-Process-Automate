@@ -1,5 +1,3 @@
-import prisma from "./prisma";
-
 let dbAvailable: boolean | null = null;
 let lastCheck = 0;
 const CHECK_INTERVAL_MS = 30_000;
@@ -36,7 +34,9 @@ export function isDbConnectionError(error: unknown): boolean {
     message.includes("database server") ||
     message.includes("invalid `prisma") ||
     message.includes("environment variable not found") ||
-    message.includes("authentication failed")
+    message.includes("authentication failed") ||
+    message.includes("did not initialize yet") ||
+    message.includes("prisma generate")
   );
 }
 
@@ -60,10 +60,14 @@ export async function isDatabaseConnected(
   }
 
   try {
+    const { default: prisma } = await import("./prisma");
     await prisma.$queryRaw`SELECT 1`;
     dbAvailable = true;
-  } catch {
+  } catch (error) {
     dbAvailable = false;
+    if (isDbConnectionError(error)) {
+      console.warn("[DB] Database unavailable — mock data will be used");
+    }
   }
 
   lastCheck = now;
